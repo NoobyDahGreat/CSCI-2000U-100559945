@@ -1,0 +1,19 @@
+1.
+  (a) echo hellow world prints "hello world" to the terminal.
+
+  (b) echo {con,pre}{sent,fer}{s,ed} displays consents consented confers confered
+      presents presented prefers prefered
+
+  (c) date displays the current date and time as well ass time zone
+
+  (d) whoami displays the userid
+
+  (e) cal 2000 displays the calendar for the year 2000
+
+  (f) cal 9 1752 displays the calender for september of 1752, however the dates
+      September 3rd -13th are not displayed
+
+  (g) bc -l is a calculator software using input from the keyboard into the terminal
+
+  (h) echo 5+4 | bc -1 utilizes the mathlib calculator software to take the piped
+      input from echo 5+4 to display the calculated value of of 5+4 which is 9
