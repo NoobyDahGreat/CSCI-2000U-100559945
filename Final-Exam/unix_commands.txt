@@ -3,7 +3,8 @@
 # How would you print the file classlist.csv to the screen
 # except the two header lines?
 # Enter the relevant Unix command(s) used below.
-
+wc -l classlist.csv
+cat classlist.csv | tail -130
 
 
 
@@ -12,7 +13,7 @@
 # to determine how many distinct students are in this list?
 # Enter the relevant Unix command(s) used below as well as the number
 # of students in the list.
-
+uniq     | tail -130 classlist.csv
 
 
 
@@ -23,7 +24,7 @@
 # list?
 # Enter the relevant Unix command(s) used below as well as the names
 # of the first and last students in the new list.
-
+uniq
 
 
 
